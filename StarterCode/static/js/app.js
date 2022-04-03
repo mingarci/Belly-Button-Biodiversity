@@ -22,7 +22,7 @@ d3.json("samples.json").then((data => {
 
 
 // * Use `otu_labels` as the hovertext for the chart.
-
+    const otu_labels = filteredSample.otu_labels
 
 
 
