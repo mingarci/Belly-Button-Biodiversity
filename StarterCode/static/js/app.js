@@ -6,6 +6,9 @@ d3.csv("https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css", 
 d3.json("samples.json").then((data => {
 
 // Create a horizontal bar chart with a dropdown menu to display the top 10 OTUs found in that individual.
+function init()
+
+
 // * Use `sample_values` as the values for the bar chart.
     const samples = data.samples
     const metadata = data.metadata
